@@ -1,0 +1,53 @@
+
+ul.admincp_list li {
+    float: left;
+    margin: 5px;
+}
+.clear{
+	clear: both;
+}
+h3.title_admin {
+    text-align: center;
+    font-size: 40px;
+    color: blue;
+}
+.wrapper{
+	border:1px solid #000;
+	height: auto;
+	width: 90%;
+	margin:0 auto;
+}
+
+.navbar-nav>li {
+    float: left;
+    /* padding-left: 5px; */
+}
+
+.footer {
+    text-align: center;
+    background-color: #363131;
+    color: aliceblue;
+    height: 50px;
+}
+
+.footer_copyright {
+    margin-top: 10px;
+    padding-top: 17px;
+}
+
+.btn {
+    font-size: 17px;
+    background-color: #1f1d1d;
+    text-decoration: none
+}
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.chaomung {
+    padding-top: 22px;
+    text-align: center;
+    color: red;
+    font-size: 25px;
+}
