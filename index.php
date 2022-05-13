@@ -59,34 +59,7 @@
 		});
 	</script>
 </body>
-<!-- <script type="text/javascript">
-	$(document).ready(function() {
 
-	  var back = $(".prev");
-	  var next = $(".next");
-	  var steps = $(".step");
-
-	  next.bind("click", function() {
-	    $.each(steps, function(i) {
-	      if (!$(steps[i]).hasClass('current') && !$(steps[i]).hasClass('done')) {
-	        $(steps[i]).addClass('current');
-	        $(steps[i - 1]).removeClass('current').addClass('done');
-	        return false;
-	      }
-	    })
-	  });
-	  back.bind("click", function() {
-	    $.each(steps, function(i) {
-	      if ($(steps[i]).hasClass('done') && $(steps[i + 1]).hasClass('current')) {
-	        $(steps[i + 1]).removeClass('current');
-	        $(steps[i]).removeClass('done').addClass('current');
-	        return false;
-	      }
-	    })
-	  });
-
-	})
-</script> -->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="
 	sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
 	
